@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mini-container{
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    background: linear-gradient(90deg, rgba(250,247,224,1) 0%, rgba(255,247,232,1) 50%, rgba(254,248,238,1) 100%);
+
+}
+.container{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(90deg, rgba(250, 247, 221, 0.737) 0%, rgba(254, 246, 231, 0.745) 35%, rgba(254, 248, 237, 0.73) 100%);
+}
+.box{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.nav-bar ul{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav-bar img{
+    width: 120px;
+    height: 30px;
+}
+.nav-bar button{
+    width: 85px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #DD5144;
+    color:#DD5144;
+    background-color: transparent;
+    font-size: 12px;
+}
+.upper-section{
+    width: 87.67%;
+    height: 310px;
+    background: linear-gradient(90deg, rgba(250, 247, 221, 0.737) 0%, rgba(254, 246, 231, 0.745) 35%, rgba(254, 248, 237, 0.73) 100%);
+    border:  5px solid rgba(72, 72, 72, 0.834);
+    border-bottom:none ;
+    border-radius: 40px 40px 0px 0px;
+    margin-left: 78px;
+}
+.hero-part{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.hero-part h1{
+    font-size: 45px;
+    font-weight: 850px;
+}
+.hero-part p{
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+}
+.hero-part button{
+    width: 160px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #DD5144;
+    color: #ffff;
+    border: none;
+}
+.img-part{
+    width: 100%;
+    height: 400px;
+    background-image: url(./imgpsh_fullsize_anim-removebg-preview\ 123.png);
+    background-position: center;
+    background-size: cover;
+}
